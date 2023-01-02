@@ -1,6 +1,6 @@
 # Knight's Tour Problem Visual Solver
 
-## Two functional programs that calculate an open tour of a knight on a chess board
+## Two approaches for an open tour of a knight on a chess board
 
 This project was something I built out of curiosity after I stumbled upon the Knight's Tour problem. The scripts
 provided, each in their own way find a valid path for an open tour for a knight chess piece. Provided are a 
