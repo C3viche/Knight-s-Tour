@@ -19,20 +19,20 @@ git clone https://github.com/C3viche/Knights-Tour.git
 cd Heuristic 
 ./knights_tour_op.exe
 ```
-    or
+or
 ```
 cd Bruteforce
 ./knights_tour.exe
 ```
 3. The following input is required for each.
 
-    #### Heuristic Solution (RECOMMENDED)
+    ### Heuristic Solution (RECOMMENDED)
 
     * Dimensions of the abstract "chess board" (m x n)
     * The starting position of the knight in number coordinates
         * This is done because not all chess boards have letter indications
         * (0, 0) is the the top left corner, y increases going down the board, and x increases going right
-    #### Brute Force
+    ### Brute Force
 
     Very unpolished. This was my beta version for the project so I highly recommend using the other program provided instead 
     (Heuristic Solution using Warnsdorff's rule). However this program still does work for small chess boards like 5x5 and 6x6.
