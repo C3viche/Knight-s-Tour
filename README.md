@@ -12,6 +12,10 @@ that take input for the following:
     * This is done because not all chess boards have letter indications
     * (0, 0) is the the top left corner, y increases going down the board, and x increases going right
 
+## Visuals
+![alt-text](Screenshot 2023-01-02 at 12.25.43 PM)
+![alt-text](Screenshot 2023-01-02 at 12.27.01 PM)
+
 ## Here are some resources I found interesting!
  * [Numberphile Video](https://www.youtube.com/watch?v=ab_dY3dZFHM) about interesting patterns in the knight's tour
  * [Article](https://www.sciencedirect.com/science/article/pii/S0166218X04003488) on an optimized solution
