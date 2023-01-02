@@ -13,8 +13,8 @@ that take input for the following:
     * (0, 0) is the the top left corner, y increases going down the board, and x increases going right
 
 ## Visuals
-![alt-text](Screenshot 2023-01-02 at 12.25.43 PM)
-![alt-text](Screenshot 2023-01-02 at 12.27.01 PM)
+![5x5_Board](five_by_five.png)
+![8x8_Board](eight_by_eight.png)
 
 ## Here are some resources I found interesting!
  * [Numberphile Video](https://www.youtube.com/watch?v=ab_dY3dZFHM) about interesting patterns in the knight's tour
