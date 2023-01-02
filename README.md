@@ -19,12 +19,12 @@ git clone https://github.com/C3viche/Knights-Tour.git
 cd Heuristic 
 ./knights_tour_op.exe
 ```
-or
+OR
 ```
 cd Bruteforce
 ./knights_tour.exe
 ```
-3. The following input is required for each.
+3. The following input is required for each:
 
     ### Heuristic Solution (RECOMMENDED)
 
@@ -41,7 +41,7 @@ cd Bruteforce
         * must be entered as x, y
         * not input validation, so very error prone
 
-## Keep in Mind
+## Keep in Mind...
 
 Some boards and some starting positions may lead to impossible tours or long computing time for the computer
 so cancel the program with Ctrl + C if solution is not computed in under a minute. I am currently working on 
