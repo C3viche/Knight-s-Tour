@@ -65,8 +65,8 @@ int find_weight(Position curr_pos, Position* path, Board board, int move_num, in
 
 // prints path in chess terms
 void print_path(Position* path, Board board, bool ended) {
-    char letter_pos;
-    int number_pos;
+    int x_pos;
+    int y_pos;
 
     if(ended == false) {
         printf("\nPath is not possible from this position");
@@ -75,14 +75,14 @@ void print_path(Position* path, Board board, bool ended) {
         printf("\n");
         print_board(board);
         printf("Here is the sequence of moves:\n");
-        letter_pos = 'A' + (path[0]).x;
-        number_pos = (path[0]).y + 1;
-        printf("\tfrom %c %d\n", letter_pos, number_pos); //formatted letter and number position
+        x_pos = (path[0]).x;
+        y_pos = (path[0]).y;
+        printf("\tfrom %d, %d\n", x_pos, y_pos); //formatted letter and number position
 
         for(int pos = 1; pos < board.squares; pos++) { // go through rest of positions
-            letter_pos = 'A' + (path[pos]).x;
-            number_pos = (path[pos]).y + 1;
-            printf("\tknight to %c %d\n", letter_pos, number_pos);
+            x_pos = (path[pos]).x;
+            y_pos = (path[pos]).y;
+            printf("\tknight to %d, %d\n", x_pos, y_pos);
         }
     }
 }
