@@ -8,8 +8,30 @@ bruteforce approach and a more heuristic solution using [Warnsdorff's rule](http
 
 # How to use
 
-Provided should be the up-to-date executable.
+Instructions assume that the user has Git installed. If not installed, the [documentation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) may help. All is done on the terminal.
 
+1. Create or navigate to a directory to clone the repository, and then clone it with this terminal command.
+```
+git clone https://github.com/C3viche/Knights-Tour.git
+```
+2. Provided should be the up-to-date executable. Navigate to "Heuristic" or "Bruteforce" directory and run the executable.
+```
+cd Heuristic 
+./knights_tour_op.exe
+```
+or
+```
+cd Bruteforce
+./knights_tour.exe
+```
+3. The following input is required for each.
+
+### Heuristic Solution (RECOMMENDED)
+
+* Dimensions of the abstract "chess board" (m x n)
+* The starting position of the knight in number coordinates
+    * This is done because not all chess boards have letter indications
+    * (0, 0) is the the top left corner, y increases going down the board, and x increases going right
 ### Brute Force
 
 Very unpolished. This was my beta version for the project so I highly recommend using the other program provided instead 
@@ -18,13 +40,6 @@ Very unpolished. This was my beta version for the project so I highly recommend 
 * The starting position of the knight in number coordinates:
     * must be entered as x, y
     * not input validation, so very error prone
-
-### Heuristic Solution (USE THIS)
-
-* Dimensions of the abstract "chess board" (m x n)
-* The starting position of the knight in number coordinates
-    * This is done because not all chess boards have letter indications
-    * (0, 0) is the the top left corner, y increases going down the board, and x increases going right
 
 ## Keep in Mind
 
