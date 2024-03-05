@@ -4,7 +4,8 @@
 
 This project was something I built out of curiosity after I stumbled upon the Knight's Tour problem. The scripts
 provided, each in their own way find a valid path for an open tour for a knight chess piece. Provided are a 
-bruteforce approach and a more heuristic solution using [Warnsdorff's rule](https://en.wikipedia.org/wiki/Knight%27s_tour).
+bruteforce approach and a more heuristic solution using [Warnsdorff's rule](https://en.wikipedia.org/wiki/Knight%27s_tour). Both
+approaches employ backtracking.
 
 # How to use
 
